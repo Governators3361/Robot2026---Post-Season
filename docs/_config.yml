@@ -1,0 +1,14 @@
+title: "Governators Robot2026 Docs"
+description: "Docs for 3361's \"Kroge One\", their bot for 2026 Rebuilt"
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+
+url: "https://governators.github.io"
+baseurl: "/Robot2026"
+
+plugins:
+  - jekyll-remote-theme
+
+# Build settings
+exclude:
+  - README.md
