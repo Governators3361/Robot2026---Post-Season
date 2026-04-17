@@ -1,0 +1,187 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.thethriftybot.frc",
+    "module": "ThriftyLib-java",
+    "version": "2026.1.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "ThriftyLib-java-2026.1.2.jar",
+          "url": "ThriftyLib-java-2026.1.2.jar",
+          "size": 78179,
+          "sha512": "18f822d7e893e63e2a1ecb7585a44f292e1f8900707fdd28800c1879e492c3509c85aeea82b337c6bce5ff421c7beb51e0ef476d885c098c9c6b4f285cdd870a",
+          "sha256": "5c8dfceee75e754671f2105a096723be1fb5fa313663a2c85dc9d833efbb5289",
+          "sha1": "710324fb42f19b87b2571286df0d57cf5d92abfd",
+          "md5": "cdd4b2ee2b1d0dca3c346a976378aed9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "edu.wpi.first.cscore",
+          "module": "cscore-java",
+          "version": {
+            "requires": "2026.+"
+          }
+        },
+        {
+          "group": "edu.wpi.first.cameraserver",
+          "module": "cameraserver-java",
+          "version": {
+            "requires": "2026.+"
+          }
+        },
+        {
+          "group": "edu.wpi.first.ntcore",
+          "module": "ntcore-java",
+          "version": {
+            "requires": "2026.+"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpilibj",
+          "module": "wpilibj-java",
+          "version": {
+            "requires": "2026.+"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpiutil",
+          "module": "wpiutil-java",
+          "version": {
+            "requires": "2026.+"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpimath",
+          "module": "wpimath-java",
+          "version": {
+            "requires": "2026.+"
+          }
+        },
+        {
+          "group": "edu.wpi.first.wpiunits",
+          "module": "wpiunits-java",
+          "version": {
+            "requires": "2026.+"
+          }
+        },
+        {
+          "group": "edu.wpi.first.hal",
+          "module": "hal-java",
+          "version": {
+            "requires": "2026.+"
+          }
+        },
+        {
+          "group": "org.ejml",
+          "module": "ejml-simple",
+          "version": {
+            "requires": "0.43.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.15.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.15.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.15.2"
+          }
+        },
+        {
+          "group": "edu.wpi.first.thirdparty.frc2025.opencv",
+          "module": "opencv-java",
+          "version": {
+            "requires": "4.10.0-2"
+          }
+        },
+        {
+          "group": "org.java-websocket",
+          "module": "Java-WebSocket",
+          "version": {
+            "requires": "1.5.4"
+          }
+        },
+        {
+          "group": "org.json",
+          "module": "json",
+          "version": {
+            "requires": "20231013"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ThriftyLib-java-2026.1.2.jar",
+          "url": "ThriftyLib-java-2026.1.2.jar",
+          "size": 78179,
+          "sha512": "18f822d7e893e63e2a1ecb7585a44f292e1f8900707fdd28800c1879e492c3509c85aeea82b337c6bce5ff421c7beb51e0ef476d885c098c9c6b4f285cdd870a",
+          "sha256": "5c8dfceee75e754671f2105a096723be1fb5fa313663a2c85dc9d833efbb5289",
+          "sha1": "710324fb42f19b87b2571286df0d57cf5d92abfd",
+          "md5": "cdd4b2ee2b1d0dca3c346a976378aed9"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "ThriftyLib-java-2026.1.2-all.jar",
+          "url": "ThriftyLib-java-2026.1.2-all.jar",
+          "size": 296495,
+          "sha512": "02ef123c42fba49cb63904c87f8706e4cd28aae077743e28930964143b7bfa09414c0d5372174663555d6428d1b83583317ffb3273d57fa195e415540905ac24",
+          "sha256": "33e332cb08f268ccd25d5f5e6215c02004a3a302abc2636f61bb3365edfcc8bc",
+          "sha1": "958f7deb999dd3324157b63b374975f629c5bcfa",
+          "md5": "41a894620571ec4e321ba66620ac36c3"
+        }
+      ]
+    }
+  ]
+}

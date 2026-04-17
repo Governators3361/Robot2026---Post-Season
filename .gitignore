@@ -185,10 +185,3 @@ compile_commands.json
 
 # Eclipse generated file for annotation processors
 .factorypath
-
-### Jekyll (docs) ###
-docs/_site/
-docs/.jekyll-cache/
-docs/.jekyll-metadata
-docs/vendor/
-docs/Gemfile.lock
